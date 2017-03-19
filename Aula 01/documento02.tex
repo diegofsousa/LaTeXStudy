@@ -1,0 +1,22 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[brazil]{babel}% Traduz o documento para pt-br
+\usepackage[utf8]{inputenc}% Pacote para reconhecimento de acentuação
+\usepackage{lipsum}% Texto aleatório
+\usepackage{ragged2e}
+\title{Este é o título do meu artigo}
+\author{Diego Fernando\thanks{Agradeço a minha mãe}}
+\date{\today}
+
+\begin{document}
+\setlength{\parindent}{2cm}
+\lipsum[1]
+\noindent\lipsum[2]
+
+\newpage
+\lipsum[3]
+\vspace{2cm}
+Lista de compras: Batata, \hspace{1cm} Feijão, \hspace{1cm} Arroz.
+
+Esta linha deve ser quebrada aqui\hfill\break a partir deste ponto deve começar uma nova linha.
+
+\end{document}
