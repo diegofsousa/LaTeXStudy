@@ -1,0 +1,40 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[brazilian]{babel}% Traduz o documento para pt-br
+\usepackage[utf8]{inputenc}% Pacote para reconhecimento de acentuação
+\usepackage{lipsum}% Texto aleatório
+
+
+\begin{document}
+
+\begin{itemize}
+	\item Banana
+	\item Maça
+	\item Abacaxi
+	\item Laranja
+\end{itemize}
+
+\begin{enumerate}
+	\item Banana
+	\item Maça
+	\item Abacaxi
+	\item Laranja
+	\item Outros
+	\begin{enumerate}
+		\item Arroz
+		\item Trigo
+		\item Cevada
+		\begin{enumerate}
+			\item Feijão
+			\item Lentilha
+			\item Batata
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\begin{description}
+	\item[Arroz] Cereal comum nas refeições
+	\item[Feijão] Outro item que não falta nas nossas refeições
+	\item[Jiló] Ninguém gosta
+\end{description}
+
+\end{document}
