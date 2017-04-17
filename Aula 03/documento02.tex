@@ -1,0 +1,56 @@
+\documentclass[12pt, a4paper, openany]{book}
+\usepackage[brazilian]{babel}% Traduz o documento para pt-br
+\usepackage[utf8]{inputenc}% Pacote para reconhecimento de acentuação
+\usepackage{lipsum}% Texto aleatório
+
+\newtheorem{teorema}{Teorema}[section]
+\newtheorem{definicao}[teorema]{Definição}
+\newtheorem{proposicao}{Proposição}[section]
+
+\begin{document}
+
+\renewcommand{\contentsname}{Indice}
+\addcontentsline{toc}{chapter}{Indice}
+\tableofcontents
+	
+\part{Primeira Grande Parte}
+
+\chapter*{Introdução}
+
+\chapter{Primeiro capítulo}
+
+\section{Primeiro Teste}
+
+\lipsum[1]
+
+\section{Segundo Teste}
+
+\subsection{Comentários}
+
+\lipsum[2]
+
+\subsubsection{Mais comentários}
+
+\lipsum[2]
+
+\paragraph{Primeiro parágrafo}
+
+\lipsum[3]
+
+\subparagraph{Primeiro subparágrafo}
+
+\lipsum[3]
+
+\part{Segunda Grande Parte}
+
+\chapter{Nais Trabalho}
+
+\lipsum
+
+\appendix
+
+\chapter{Conclusão}
+
+\lipsum
+
+\end{document}
